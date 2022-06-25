@@ -1,0 +1,38 @@
+{
+    "http_method": "GET",
+    "size": 4,
+    "matched_count": 4,
+    "next_idx": 3,
+    "revision": "2ad02288ac50339e9cc9273f6ee407a6",
+    "results": [
+        {
+            "name": "virtual-wan-link",
+            "q_origin_key": "virtual-wan-link",
+            "service-sla-tie-break": "cfg-order"
+        },
+        {
+            "name": "SASE",
+            "q_origin_key": "SASE",
+            "service-sla-tie-break": "cfg-order"
+        },
+        {
+            "name": "SDwan-Internet",
+            "q_origin_key": "SDwan-Internet",
+            "service-sla-tie-break": "cfg-order"
+        },
+        {
+            "name": "SDwan-MPLS",
+            "q_origin_key": "SDwan-MPLS",
+            "service-sla-tie-break": "cfg-order"
+        }
+    ],
+    "vdom": "root",
+    "path": "system",
+    "name": "sdwan",
+    "child_path": "zone",
+    "status": "success",
+    "http_status": 200,
+    "serial": "FGVM01TM22002511",
+    "version": "v7.0.5",
+    "build": 304
+}

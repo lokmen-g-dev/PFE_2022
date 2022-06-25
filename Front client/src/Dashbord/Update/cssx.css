@@ -1,0 +1,84 @@
+.sideba {
+  flex: 1;
+  border-right: 0.5px solid #e6e3e3;
+  min-height: 75vh;
+  background-color: white;
+}
+.sideba .top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sideba .top .logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20%;
+  margin-right: 25%;
+  color: #6439ff;
+}
+.sideba hr {
+  height: 0;
+  border: 0.5px solid #e6e3e3;
+}
+.sideba .center {
+  padding-left: 10px;
+}
+.sideba .center ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sideba .center ul .title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 105px;
+  margin-bottom: 5px;
+}
+.sideba .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+.sideba .center ul li:hover {
+  background-color: #ece8ff;
+}
+.sideba .center ul li .icon {
+  font-size: 18px;
+  color: #7451f8;
+}
+.sideba .center ul li span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  margin-left: 10px;
+}
+.sideba .bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.sideba .bottom .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #7451f8;
+  cursor: pointer;
+  margin: 5px;
+}
+.sideba .bottom .colorOption:nth-child(1) {
+  background-color: whitesmoke;
+}
+.sideba .bottom .colorOption:nth-child(2) {
+  background-color: #333;
+}
+.sideba .bottom .colorOption:nth-child(3) {
+  background-color: darkblue;
+}
+
+#sdwan{
+  background-color: #e6e3e3;
+}
